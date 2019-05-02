@@ -1,0 +1,6 @@
+.fondo {
+    background-image: url(Anima.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
