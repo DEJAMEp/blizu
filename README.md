@@ -1,2 +1,2 @@
 # BLIZU
-Una nueva forma de pasado de lista
+Una nueva forma de pasar la lista
