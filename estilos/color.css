@@ -50,4 +50,5 @@ h1 {
 .navbar {
     padding: .5rem 25rem;
     justify-content: center;
+    margin: auto;
 }
