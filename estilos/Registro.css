@@ -1,35 +1,46 @@
-.Belen {
+.logo{
+    position: relative;
+    height: 30vh;
+}
+
+.Casilleros{
+    display: flex;
+    justify-content: center;
+}
+
+.Blizu {
     font-family: 'Source Sans Pro', sans-serif;
     color: #bdbd31;
     font-size: 15vh;
 }
-.Maduro {
+
+.Casillas {
     font-family: 'Source Sans Pro', sans-serif;
     color: #CBC8C6;
     font-size: 4vh;
     margin-top:-15vh;
     height: 70vh;
-    margin-left: -1%;
 }
+
 .fondo{
     width: 100%;
     height: 100vh;
     position: absolute;
 }
-.Vegetta {
+
+.Texto1 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #47babb;
     height: 25vh;
     font-size: 4vh;
     margin-top:-5%;
 }
+
 .input{
     border-radius: 40px;
 }
+
 .btn-primary {
     background-color: #bdbd31;
     border-color: #bdbd31;
-}
-.boton1{
-    margin-left: 5%;
 }
