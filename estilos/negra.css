@@ -1,76 +1,8 @@
-
-.no-spinners:-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0%;
-}
-
 .pantalla {
     position: absolute;
     width: 100%;
     height: 100vh;
 }
-
-.titulo {
-    text-align: center;
-    position: absolute;
-    color: #bdbd31 !important;
-    font-size: 700%;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-}
-
-.subtitulo {
-    text-align: center;
-    position: relative;
-    color: #47babb !important;
-    font-size: 35%;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    margin-left: 0%;
-    margin-bottom: 0%;
-    font-stretch: expanded !important;
-}
-.text {
-    font-weight: 50vh;
-    font-style: normal;
-    text-align: center;
-    position: relative;
-    font-size: 20%;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-stretch: expanded !important;
-    color: #ffff;
-}
-form {
-    position: absolute;
-    align-items: center;
-    color: chartreuse;
-}
-input {
-    color: chartreuse;   
-}
-/*.input-group-prepend {
-    align-content: center;
-    max-width: 50%;
-}
-
-/*@media (max-width: 1020vh){
-    .input-group-sm {
-        align-content: center;
-        padding-top: 75%;
-        max-width: 50%;
-    }
-}
-*/
-.input-group {
-    padding-top: 50vh;
-    max-width: 45%;
-    margin-left: 28%;
-}
-
-.form-control {
-    background-color: darkgray;
-}
-
 .boton{
     text-align: center;
     width: 70vh;
@@ -78,98 +10,127 @@ input {
 }
 .boton1 {
     display: flex;
-    justify-content: center;
-    padding-top: 5%;
-    
+    justify-content: center;   
 }
 
-.btn-secondary {
-    background-color:#74FF33!important;
-    text-indent: 10%;
-    border-radius: 5vh;
+.btn-no {
+    -moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+	background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+	background-color:#77b55a;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+    padding-left:20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+    font-size:2.5vh;
+}
+.logo{
+    width: 62vh;
+    height: 30vh;
+    margin-left: auto;
+
 }
 
-.letrasp {
-    color: aliceblue;
-    margin-top: 8vh;
+.if {
+    color: aliceblue;   
+    margin-top: 2vh;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3vh;
 }
 
-.letraslink {
+.link {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3vh;
     margin-top: 1vh;
     font-style: oblique;
 }
-.caja{ 
-position:fixed; 
-z-index: 1; 
-top:10vh; 
-left:50vh; 
-width:100vh; 
-height:70vh; 
-font-family: sans-serif;
-color: #ffffff;
-background-color: black;
-} 
+.marcarAsistencia{
+    font-size: 8vh; 
+    color: #47babb;
+    margin: auto;
+
+}
+
 .img-fluid {
 top:30vh; 
 left:90vh; 
 width:90vh; 
 height:30vh; 
 }
+
 .titulo1 {
     text-align: center;
-    position: absolute;
-    color: #bdbd31 !important;
+    position: abs   olute;
+    color: #bdbd31;
     font-size: 300%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
     font-weight: bold;
-}
-.titulo24 {
-    text-align: center;
-    position: relative;
-    color: #47babb !important;
-    font-size: 55%;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    margin-left: 0%;
-    margin-bottom: 0%;
-    font-stretch: expanded !important;
-}
-.maincra {
-     text-align: center;
-    position: relative;
-    color: white!important;
-    font-size: 50%;
-    font-weight: bold;
-    margin-left: 0%;
-    margin-bottom: 0%;
-    font-stretch: expanded !important;
-}
-.btn-primary {
-    background-color: #bdbd31;
-    border-color: black;
-    margin-left: 20%;
-    width:20vh; 
-    height:10vh
-}
-.boton5{
-    margin-left: 15%; 
-}
-.btn-terciary {
-    background-color: red;
-    border-color: black;
-    width:20vh; 
-    height:10vh;
-    margin-left: 45%;
-    margin-top: 50%;
-}
-.botons1 {
-    margin-left: 0%;
 }
 
-.botons5 {
-    padding-top:-4%;
+.asist {
+    text-align: center;
+    position: relative;
+    color: #47babb;
+    font-size: 6vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    font-stretch: expanded;
+    margin-top: 2vh;
+}
+
+.datos {
+     text-align: center;
+    position: relative;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    font-stretch: expanded ;
+    margin-top: 1vh;
+}
+.btn-si {
+    -moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #E1BF33  ), color-stop(1,#E1BF33  ));
+	background:-moz-linear-gradient(top, #E1BF33   5%, #E1BF33   100%);
+	background:-webkit-linear-gradient(top,#E1BF33  5%, #E1BF33  100%);
+	background:-o-linear-gradient(top, #E1BF33   5%, #E1BF33  100%);
+	background:-ms-linear-gradient(top, #E1BF33   5%, #E1BF33   100%);
+	background:linear-gradient(to bottom, #E1BF33   5%, #E1BF33   100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+	background-color:#EEEB3E  ;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+    font-size:2.5vh;
 }
