@@ -62,6 +62,11 @@ h1 {
 .abajo {
     text-align: center;
 }
+.navbar {
+    padding: .5rem 25rem;
+    justify-content: center;
+    margin: auto;
+}
 .navbar-light {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
