@@ -1,46 +1,76 @@
-.logo{
-    position: relative;
-    height: 30vh;
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 10;
 }
-
-.Casilleros{
-    display: flex;
-    justify-content: center;
+.custom-select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    border-radius: 30px;
 }
-
-.Blizu {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #bdbd31;
-    font-size: 15vh;
-}
-
-.Casillas {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #CBC8C6;
-    font-size: 4vh;
-    margin-top:-15vh;
-    height: 70vh;
-}
-
 .fondo{
     width: 100%;
     height: 100vh;
     position: absolute;
-}
-
-.Texto1 {
+}    
+.titulo {
+    color: black;
+    font-size: 16vh; 
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subtitulo {
     color: #47babb;
-    height: 25vh;
-    font-size: 4vh;
-    margin-top:-5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 6vh;
+}
+.uno {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.inputs {
+    margin-top: 2%;
+}
+.dos {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 3%;
+}
+.tres {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 3%;
+}
+.cuatro {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 3%;
 }
 
-.input{
-    border-radius: 40px;
+.cinco {
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 3%;
+}
+.form-control {
+    border-radius: 20px!important;
 }
 
-.btn-primary {
-    background-color: #bdbd31;
-    border-color: #bdbd31;
+.custom-select {
+    border-radius: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
