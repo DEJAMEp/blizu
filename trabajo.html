@@ -1,76 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/negra.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
-  </head>
-  <body>
-        <img class="pantalla" src="Anima-backgraund.jpg">
-      <div class="container-fluid">
-        <div class="row">
-         <div class="col-12 caja titulo1">
-               
-             <img src="funcapls.png" class="img-fluid" alt="Responsive image">
-             Marcar Asistencia
-              
-            <div class="col-12 titulo24">
-             Deseas marcar asistencia para:
+</head>
+
+<body>
+    <div>
+        <img style="z-index: -1" class="pantalla" src="Anima-backgraund.jpg">
+    </div>
+
+    <div class="container logo">
+        <img src="./proximamente.png" class="img-fluid" alt="Responsive image">
+    </div>
+
+    <div class="Asistencia container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 marcarAsistencia text-center">
+                Marcar Asistencia
             </div>
-             <div class="col-12 maincra">
-             Pedro Pérez - 12345678
-             </div>
-             <div class="col-12 maincra">
-             pedro.perez@anima.edu.uy
-             </div>
-             <div class="col-6">
-                <button type="button" class="btn btn-primary">Primary</button>
-             </div>
-             <div class="col-6">
-                 <button type="button" class="btn btn-warning">Warning</button>
-             </div>
+
+            <div class="col-12 asist">
+                Deseas marcar asistencia para:
             </div>
-          <div class="col-12 titulo">
-            BLIZU
-            <div class="col-12 subtitulo">
-                ¿No tenes tarjeta?
-              </div>
-              <div class="col-12 text">
-                Si deseas marcar tu asistencia por
-                <div class="col-12 text-1">
-                  favor ingresa la cedula
-                  </div>
-              </div>
-           </div>
+            <div class="col-12 datos">
+                Pedro Pérez - 12345678
+            </div>
+            <div class="col-12 datos">
+                pedro.perez@anima.edu.uy
+            </div>
+            <div class="col-4 mt-4 mb-3">
+                <div class="row justify-content-around">
+                    <div class="col-4 botones">
+                        <button type="button" class="btn btn-si">Si, todo listo</button>
+                    </div>
+                    <div class="col-4 botones">
+                        <button type="button" class="btn btn-no">No, faltó algo</button>
+                    </div>
+                </div>
+            </div>
         </div>
-          </div>
-        <div class="container-fluid">
-            <div class="input-group input-group-lg">
-              <div class="input-group-prepend">
-              </div>
-              <input type="number" class="form-control no-spinners" aria-label="Sizing input">
-            </div>                
-              <div class="col-sm-12 boton1">
-              <button type="button" class="btn btn-secondary btn-lg boton">Marcar asistencia</button>
-            </div>
-            <div class="row">
-                <div class="col-12 letrasp text-center full-heigth d-flex flex-column justify-content-center">
-                    si deseas añadir una nueva tarjeta
-                </div>
-                <div class="col-12 letraslink text-center full-heigth d-flex flex-column justify-content-center">
-                    <a href="ola.html">Haz click aqui</a>
-                </div>
-            </div>
-      </div>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+
+    </div>
+
+
+    <div class="col-12 if text-center full-heigth d-flex flex-column justify-content-center">
+        si deseas añadir una nueva tarjeta
+    </div>
+    <div class="col-12 link text-center full-heigth d-flex flex-column justify-content-center">
+        <a href="ola.html">Haz click aqui</a>
+    </div>
+    </div>
+    </div>
+    <!-- jQuery f8irst, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
